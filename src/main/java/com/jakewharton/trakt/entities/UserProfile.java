@@ -48,9 +48,19 @@ public class UserProfile implements TraktEntity {
             public Integer watchedTraktUnique;
             @SerializedName("watched_elsewhere")
             public Integer watchedElsewhere;
+            public Integer scrobbles;
+            @SerializedName("scrobbles_unique")
+            public Integer scrobblesUnique;
+            public Integer checkins;
+            @SerializedName("checkins_unique")
+            public Integer checkinsUnique;
+            public Integer seen;
             public Integer library;
             public Integer unwatched;
-
+            public Integer collection;
+            public Integer shouts;
+            public Integer loved;
+            public Integer hated;
         }
 
         public Integer friends;
